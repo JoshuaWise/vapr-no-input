@@ -17,7 +17,5 @@ const app = require('vapr')();
 const route = app.get('/foo');
 
 route.use(noInput());
-route.use((req) => {
-  // This request had no body content
-});
+route.use((req) => { ... });
 ```
