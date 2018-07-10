@@ -1,0 +1,32 @@
+{
+  "name": "vapr-no-input",
+  "version": "0.1.0",
+  "description": "A vapr plugin that rejects requests containing a body",
+  "main": "lib/index.js",
+  "peerDependencies": {
+    "vapr": "^0.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "$(npm bin)/mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaWise/vapr-no-input.git"
+  },
+  "keywords": [
+    "vapr",
+    "plugin",
+    "middleware",
+    "content-length"
+  ],
+  "author": "Joshua Wise <joshuathomaswise@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoshuaWise/vapr-no-input/issues"
+  },
+  "homepage": "https://github.com/JoshuaWise/vapr-no-input#readme"
+}
