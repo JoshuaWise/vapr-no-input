@@ -1,7 +1,7 @@
 {
   "name": "vapr-no-input",
   "version": "0.5.0",
-  "description": "A vapr plugin that rejects requests containing a body",
+  "description": "A vapr plugin that rejects any request containing a body",
   "main": "lib/index.js",
   "peerDependencies": {
     "vapr": "^0.5.0"
