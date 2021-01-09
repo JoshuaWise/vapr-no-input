@@ -2,5 +2,5 @@
 const { expect } = require('chai');
 
 describe('input()', function () {
-  it('should be tested');
+	it('should be tested');
 });
